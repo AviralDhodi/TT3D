@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="yourComponent">
+    <apiVersion>58.0</apiVersion> <!-- Set the correct API version -->
+    <isExposed>true</isExposed>
+    <targets>
+        <!-- Lightning App Page -->
+        <target>lightning__AppPage</target>
+
+        <!-- Record Page (Object-specific pages) -->
+        <target>lightning__RecordPage</target>
+
+        <!-- Home Page -->
+        <target>lightning__HomePage</target>
+
+        <!-- Utility Bar -->
+        <target>lightning__UtilityBar</target>
+
+        <!-- Community Pages / Experience Builder Sites -->
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+
+        <!-- Flow Screens -->
+        <target>lightning__FlowScreen</target>
+
+        <!-- Navigation Items (tabs in apps) -->
+        <target>lightning__Tab</target>
+
+        <!-- Messaging for Omnichannel -->
+        <target>lightning__RecordAction</target>
+
+    </targets>
+</LightningComponentBundle>
